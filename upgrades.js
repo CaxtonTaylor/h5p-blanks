@@ -1,6 +1,6 @@
 var H5PUpgrades = H5PUpgrades || {};
 
-H5PUpgrades['H5P.Blanks'] = (function () {
+H5PUpgrades['H5P.BlanksIDO'] = (function () {
   return {
     1: {
       1: {

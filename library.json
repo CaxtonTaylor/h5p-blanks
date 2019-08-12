@@ -1,7 +1,7 @@
 {
   "title": "Fill in the Blanks",
   "description": "Test your users with fill in the blanks tasks(Cloze tests).",
-  "machineName": "H5P.Blanks",
+  "machineName": "H5P.BlanksIDO",
   "majorVersion": 1,
   "minorVersion": 11,
   "patchVersion": 4,
@@ -35,7 +35,7 @@
       "minorVersion": 5
     },
     {
-      "machineName": "H5P.Question",
+      "machineName": "H5P.QuestionIDO",
       "majorVersion": 1,
       "minorVersion": 4
     },

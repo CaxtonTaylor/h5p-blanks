@@ -3,7 +3,7 @@
   /**
    * Simple private class for keeping track of clozes.
    *
-   * @class H5P.Blanks.Cloze
+   * @class H5P.BlanksIDO.Cloze
    * @param {string} answer
    * @param {Object} behaviour Behavioral settings for the task from semantics
    * @param {boolean} behaviour.acceptSpellingErrors - If true, answers will also count correct if they contain small spelling errors.
@@ -235,4 +235,4 @@
     };
   };
 
-})(H5P.jQuery, H5P.Blanks);
+})(H5P.jQuery, H5P.BlanksIDO);

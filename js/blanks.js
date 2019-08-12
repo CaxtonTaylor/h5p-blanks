@@ -1,5 +1,5 @@
 /*global H5P*/
-H5P.Blanks = (function ($, Question) {
+H5P.BlanksIDO = (function ($, Question) {
   /**
    * @constant
    * @default
@@ -37,7 +37,7 @@ H5P.Blanks = (function ($, Question) {
   /**
    * Initialize module.
    *
-   * @class H5P.Blanks
+   * @class H5P.BlanksIDO
    * @extends H5P.Question
    * @param {Params} params
    * @param {number} id Content identification
@@ -742,7 +742,7 @@ H5P.Blanks = (function ($, Question) {
   Blanks.prototype.showEvaluation = function () {
     var maxScore = this.getMaxScore();
     var score = this.getScore();
-    var scoreText = H5P.Question.determineOverallFeedback(this.params.overallFeedback, score / maxScore).replace('@score', score).replace('@total', maxScore);
+    var scoreText = H5P.QuestionIDO.determineOverallFeedback(this.params.overallFeedback, score / maxScore).replace('@score', score).replace('@total', maxScore);
 
     this.setFeedback(scoreText, score, maxScore, this.params.scoreBarLabel);
 
@@ -894,4 +894,4 @@ H5P.Blanks = (function ($, Question) {
   };
 
   return Blanks;
-})(H5P.jQuery, H5P.Question);
+})(H5P.jQuery, H5P.QuestionIDO);
